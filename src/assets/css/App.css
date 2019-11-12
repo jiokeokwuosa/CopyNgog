@@ -1,0 +1,42 @@
+.App{
+  padding: 5px;
+}
+a{
+  text-decoration: none !important;
+}
+.absolute {
+	position: absolute;
+}
+
+.relative {
+	position: relative;
+}
+
+.fullWidth {
+	width: 100%;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.centerImage {
+	margin: auto;
+	display: block;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
