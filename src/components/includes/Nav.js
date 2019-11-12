@@ -24,27 +24,27 @@ const MyNav = props => {
 					<Nav className="ml-auto" navbar>
 						<NavItem>
 							<NavLink>
-								<Link to="/news"> NEWS</Link>
+								<Link to="/news">THE NOGIG</Link>
 							</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink>
-								<Link to="/directory">BUSINESS DIRECTORY</Link>
+								<Link to="/directory">NOGIG SPORTS</Link>
 							</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink>
-								<Link to="/trading">TRADING PLACE</Link>
+								<Link to="/trading">COMMUNITY</Link>
 							</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink>
-								<Link to="/forum">FORUM</Link>
+								<Link to="/forum">CONTACTS</Link>
 							</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink>
-								<Link to="/event">EVENT</Link>
+								<Link to="/event">THE PORTAL</Link>
 							</NavLink>
 						</NavItem>
 					</Nav>
