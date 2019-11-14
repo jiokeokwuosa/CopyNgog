@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import * as serviceWorker from './assets/js/serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));

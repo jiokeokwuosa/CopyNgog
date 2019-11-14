@@ -4,6 +4,9 @@
 a{
   text-decoration: none !important;
 }
+.bold{
+	font-weight: bold;;
+}
 .absolute {
 	position: absolute;
 }
@@ -39,4 +42,271 @@ a{
 
 .floatRight {
 	float: right;
+}
+
+#homepageFirstSection {
+	padding: 103px 165px;
+	background: #ffecce;
+	color:#3d2406;
+}
+#homepageFirstSection .col-md-12>h3{
+   text-align: center;
+   padding: 0px 145px;
+}
+#homepageFirstSection .p1 {
+    padding: 46px 188px;
+    text-align: center;
+    font-size: 17px;
+}
+#homepageFirstSection hr {
+    width: 8%;
+	background:black;
+	border: solid 2px black;
+}
+#homepageFirstSection .myRow {
+	padding: 31px 1px;
+	text-align: center;
+}
+#homepageFirstSection .myRow p {
+    padding: 7px 40px;
+}
+#homepageFirstSection button {
+    text-align: center;
+    margin: auto;        
+    padding: 9px 39px;
+    margin-top: 59px;
+	background: #3d2406;
+	color: white;
+}
+#homepageSecondSection{
+	background-image: url('../img/2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	color: white;
+}
+#homepageSecondSection h2 {
+    letter-spacing: 6px;
+}
+#homepageSecondSection hr {
+	width: 8%;
+	border: solid 2px white;
+    float: left;
+    margin-left: 4px;
+    margin-top: 0px;
+}
+#homepageSecondSection .overlay {
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#homepageSecondSection .push{
+    margin-top: 30px;
+}
+#homepageSecondSection >.row{
+    padding: 121px;
+}
+#homepageThirdSection h2 {
+	letter-spacing: 6px;
+	text-align: center;
+}
+#homepageThirdSection hr {
+	width: 8%;
+	border: solid 2px black;    
+}
+#homepageThirdSection {
+	padding: 80px 88px;
+	background:#ffecce;
+	color:#3d2406;
+}
+#homepageThirdSection img {
+    margin: auto;
+	display: block;
+	height: 119px;
+}
+
+#homepageThirdSection h3{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#homepageThirdSection p {
+    padding: 15px 8px;
+    font-size: 17px;
+    text-align: center;
+}
+#homepageThirdSection .push{
+    margin-top: 50px;
+}
+#homepageThirdSection button {
+    text-align: center;
+    margin: auto;        
+    padding: 9px 39px;
+    margin-top: 59px;
+	background: #3d2406;
+	color: white;
+}
+#homepageFourthSection h1 {
+	letter-spacing: 6px;
+	text-align: center;
+	margin-top: 45px;
+}
+#homepageFourthSection hr {
+	width: 8%;
+	border: solid 2px #fede2b;    
+}
+#homepageFourthSection{
+	text-align: center; 
+	background-image: url('../img/3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	color: #fede2b;  
+}
+#homepageFourthSection> .row{
+    padding: 120px 40px;
+}
+#homepageFourthSection button {
+    text-align: center;
+    margin: auto;        
+    padding: 9px 39px;
+    margin-top: 59px;
+	background: #fede2b;
+	color: black;
+}
+#homepageFourthSection .overlay {
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#homepageFifthSection h2 {
+	letter-spacing: 6px;
+	text-align: center;
+	margin-top: 45px;
+}
+#homepageFifthSection hr {
+	width: 8%;
+	border: solid 2px black;    
+}
+#homepageFifthSection> .row {
+    padding: 58px 25px;
+}
+#homepageSixthSection{
+	background-image: url('../img/4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	color: white;
+}
+#homepageSixthSection h2 {
+    letter-spacing: 6px;
+}
+#homepageSixthSection hr {
+	width: 8%;
+	border: solid 2px white;
+    float: left;
+    margin-left: 4px;
+    margin-top: 0px;
+}
+#homepageSixthSection .overlay {
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#homepageSixthSection .push{
+    margin-top: 30px;
+}
+#homepageSixthSection >.row{
+    padding: 121px;
+}
+#homepageSixthSection button {
+    text-align: center;
+    margin: auto;        
+    padding: 9px 39px;
+    margin-top: 59px;
+	background: white;
+	color: black;
+}
+#homepageSeventhSection{
+	background:#ec2601;
+	text-align: center;
+	color:white;
+}
+
+#homepageSeventhSection h2 {
+    letter-spacing: 6px;
+}
+#homepageSeventhSection hr {
+	width: 8%;
+	border: solid 2px white;    
+}
+#homepageSeventhSection> .row {
+    padding: 94px 1px;
+}
+#homepageSeventhSection img {
+    width: 450px;
+    height: 269px;
+	margin-left: -16px;
+	opacity: 0.8;
+}
+#homepageSeventhSection img:hover {
+    opacity: 1;
+}
+#homepageSeventhSection .push {
+    margin-top: 50px;
+}
+#homepageEightSection{
+	color: #3d2406;    
+	text-align: center;
+	background:#ffecce;
+}
+#homepageEightSection h2 {
+    letter-spacing: 6px;
+}
+#homepageEightSection hr {
+	width: 8%;
+	border: solid 2px #3d2406;    
+}
+#homepageEightSection > .row {
+    padding: 107px 30px;
+}
+#homepageEightSection img {
+    margin-right: 17px;
+}
+footer{
+	color:#fede2b;
+	background:#3d2406;
+	text-align: center;
+}
+footer > .row {
+    padding: 77px 29px 1px 29px;
+}
+footer h2 {
+    letter-spacing: 6px;
+}
+footer .one {
+	width: 8%;
+	border: solid 2px #fede2b;    
+}
+footer .push {
+    margin-top: 50px;
+}
+footer hr{
+	border: solid 1px #fede2b;  
+	margin-top:29px;
 }
