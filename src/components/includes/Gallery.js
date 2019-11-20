@@ -7,24 +7,24 @@ const Gallery =()=>{
             <hr/><br/>
             <div className="row push">
             <div className="col-md-4">
-                <img src={require('../../assets/img/gallery.jpg')} alt="gallery"/>
+                <img src={require('../../assets/img/gallery8.jpg')} alt="gallery"/>
             </div>
             <div className="col-md-4">
-                <img src={require('../../assets/img/gallery.jpg')} alt="gallery"/>
+                <img src={require('../../assets/img/gallery2.jpg')} alt="gallery"/>
             </div>
             <div className="col-md-4">
-                <img src={require('../../assets/img/gallery.jpg')} alt="gallery"/>
+                <img src={require('../../assets/img/gallery3.jpg')} alt="gallery"/>
             </div>               
             </div>
             <div className="row">
             <div className="col-md-4">
-                <img src={require('../../assets/img/gallery.jpg')} alt="gallery"/>
+                <img src={require('../../assets/img/gallery10.jpg')} alt="gallery"/>
             </div>
             <div className="col-md-4">
-                <img src={require('../../assets/img/gallery.jpg')} alt="gallery"/>
+                <img src={require('../../assets/img/gallery11.jpg')} alt="gallery"/>
             </div>
             <div className="col-md-4">
-                <img src={require('../../assets/img/gallery.jpg')} alt="gallery"/>
+                <img src={require('../../assets/img/gallery5.jpg')} alt="gallery"/>
             </div>               
             </div>
         </div> 

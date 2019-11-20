@@ -4,8 +4,6 @@ import Sports from '../includes/Sports';
 import Nogig from '../includes/Nogig';
 import Partners from '../includes/Partners';
 import Gallery from '../includes/Gallery';
-import Footer from '../includes/Footer';
-
 
 const Homepage = ()=> {
   return (
@@ -30,23 +28,10 @@ const Homepage = ()=> {
           </div>
         </div>
         <div className="row myRow">
-          <Nogig title={<>THE NOGIG<br/> BIRTH</>} content='The games started in 1985 
-                  in Eket when NNPC and 
-                  Mobil, now Exxonmobil 
-                  hosted the competition in
-                  Eket with a few tennis 
+          <Nogig title={<>THE NOGIG<br/> BIRTH</>} content='The games started in 1985 in Eket when NNPC and Mobil, now Exxonmobil hosted the competition in Eket with a few tennis 
                   games. '/>
-          <Nogig title={<>THE NOGIG<br/> COMMITTMENT</>} content='It is aimed at fostering
-                  interaction amonest the
-                  Oil and Gas Company 
-                  employees in Nigeria, also
-                  to promotes wellness and
-                  fitness programs.'/>
-          <Nogig title={<>THE NOGIG<br/>LOC</>} content='The NOGIG is a local
-                organising commitee of National Oil and gas industry games
-                formed by representatives
-                of the participating 
-                companies.'/> 
+          <Nogig title={<>THE NOGIG<br/> COMMITTMENT</>} content='It is aimed at fostering interaction amonest the Oil and Gas Company employees in Nigeria, also to promotes wellness and fitness programs.'/>
+          <Nogig title={<>THE NOGIG<br/>LOC</>} content='The NOGIG is a local organising commitee of National Oil and gas industry games formed by representatives of the participating companies.'/> 
             <button>Learn More</button>
         </div>
      </div>
@@ -74,16 +59,17 @@ const Homepage = ()=> {
           </div>
         </div>
         <div className="row push">
-          <Sports image={require('../../assets/img/4.png')} title='Athletics' description='Our athletics game is very competitive and requiring physical skill. It is arrange into 100m and 4x100m relay.'/>
-          <Sports image={require('../../assets/img/4.png')} title='Basketball' description='Our basketball game is played between two teams of five players each on a rectangular court, usually indoors.'/>
-          <Sports image={require('../../assets/img/4.png')} title='Badminton' description='Our badminton game is a racquet sport played using racquets to hit a shuttlecock across a net. Try and check it out'/>
-          <Sports image={require('../../assets/img/4.png')} title='Golf' description='Our golf game reuired participate to use various clubs to hit balls into a series of holes on a course in as few strokes as possible.'/>
+          <Sports image={require('../../assets/img/athletics icons.png')} title='Athletics' description='Our athletics game is very competitive and requiring physical skill. It is arrange into 100m and 4x100m relay.'/>
+          <Sports image={require('../../assets/img/basketball icon.png')} title='Basketball' description='Our basketball game is played between two teams of five players each on a rectangular court, usually indoors.'/>
+          <Sports image={require('../../assets/img/badminton.png')} title='Badminton' description='Our badminton game is a racquet sport played using racquets to hit a shuttlecock across a net. Try and check it out'/>
+          <Sports image={require('../../assets/img/Golf.png')} title='Golf' description='Our golf game reuired participate to use various clubs to hit balls into a series of holes on a course in as few strokes as possible.'/>
           <button>Learn More</button>
         </div>
      </div>
      <div id="homepageFourthSection" className="container-fluid relative">
         <div className="overlay"></div>
-        <div className="row">
+        <div
+         className="row">
           <div className="col-md-12">
               <h5>Be Part Of Our Community</h5>
               <h1 className="bold">JOIN OUR NEXT COMPETITION</h1>
@@ -134,13 +120,12 @@ const Homepage = ()=> {
               <hr/><br/>
               <div className="row">
                 <div className="col-md-12">
-                  <img src={require('../../assets/img/social.jpg')} alt="social media"/>  <img src={require('../../assets/img/social.jpg')} alt="social media"/>  <img src={require('../../assets/img/social.jpg')} alt="social media"/> <img src={require('../../assets/img/social.jpg')} alt="social media"/> <img src={require('../../assets/img/social.jpg')} alt="social media"/>
+                  <img src={require('../../assets/img/facebook icons.png')} alt="social media"/> <img src={require('../../assets/img/linkedln icon.png')} alt="social media"/> <img src={require('../../assets/img/pintrest icons.png')} alt="social media"/> <img src={require('../../assets/img/twitter icons.png')} alt="social media"/>  <img src={require('../../assets/img/youtube icons.png')} alt="social media"/> <img src={require('../../assets/img/instagram icons.png')} alt="social media"/>
                 </div>
               </div>
           </div>        
         </div>
-     </div>
-     <Footer/>
+     </div>     
     </>
   );
 }

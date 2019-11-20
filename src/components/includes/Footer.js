@@ -10,15 +10,15 @@ const Footer = () => {
             <hr className="one"/><br/>
             <div className="row push">
                 <div className="col-4">
-                    <img src={require('../../assets/img/icon1.png')} alt="location"/>
+                    <img src={require('../../assets/img/home icons.png')} alt="location"/>
                     <h6>Alfred Road,<br/>Lagos State, Nigeria</h6>
                 </div>
                 <div className="col-4">
-                    <img src={require('../../assets/img/icon2.png')} alt="phone"/>
+                    <img src={require('../../assets/img/phone icons.png')} alt="phone"/>
                     <h6>+234 700 000 0000</h6>
                 </div>
                 <div className="col-4">
-                    <img src={require('../../assets/img/icon3.png')} alt="mail"/>
+                    <img src={require('../../assets/img/message icons.png')} alt="mail"/>
                     <h6>info@nogig.com</h6>
                 </div>
             </div>  
