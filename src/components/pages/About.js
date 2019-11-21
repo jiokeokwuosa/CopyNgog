@@ -68,7 +68,7 @@ const About= () => {
               <h2 className="bold">FOLLOW US</h2>
               <hr/><br/>
               <div className="row">
-                <div className="col-md-12">
+                <div className="col-md-12 push2">
                   <img src={require('../../assets/img/facebook icons.png')} alt="social media"/> <img src={require('../../assets/img/linkedln icon.png')} alt="social media"/> <img src={require('../../assets/img/pintrest icons.png')} alt="social media"/> <img src={require('../../assets/img/twitter icons.png')} alt="social media"/>  <img src={require('../../assets/img/youtube icons.png')} alt="social media"/> <img src={require('../../assets/img/instagram icons.png')} alt="social media"/>
                 </div>
               </div>

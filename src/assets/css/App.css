@@ -294,8 +294,13 @@ a{
     padding: 107px 30px;
 }
 #homepageEightSection img {
-    margin-right: 17px;
+    margin: auto;
+    margin-right: 60px;
 }
+#homepageEightSection .push2 {
+    margin-left: 20px;
+}
+
 footer{
 	color:#fede2b;
 	background:#3d2406;
@@ -634,7 +639,11 @@ input[type="text"], input[type="email"], input[type="password"]{
     padding: 107px 30px;
 }
 #contactThirdSection img {
-    margin-right: 17px;
+    margin: auto;
+    margin-right: 60px;
+}
+#contactThirdSection .push2 {
+    margin-left: 20px;
 }
 #loginFirstSection{
 	background-image: url('../img/sign in page.jpg');
@@ -757,7 +766,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     margin-top: 20px;
 }
 #newsSecondSection >.row {
-    padding: 63px 219px;
+    padding: 63px 94px;
 }
 #newsSecondSection{
     background: #ffecce;
@@ -778,7 +787,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #athleticsFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #athleticsFirstSection .overlay {
     height: 100%;
@@ -819,7 +828,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #badmintonFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #badmintonFirstSection .overlay {
     height: 100%;
@@ -841,7 +850,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #basketballFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #basketballFirstSection .overlay {
     height: 100%;
@@ -862,7 +871,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #chessFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #chessFirstSection .overlay {
     height: 100%;
@@ -883,7 +892,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #golfFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #golfFirstSection .overlay {
     height: 100%;
@@ -904,7 +913,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #lawnTennisFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #lawnTennisFirstSection .overlay {
     height: 100%;
@@ -925,7 +934,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #scrabbleFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #scrabbleFirstSection .overlay {
     height: 100%;
@@ -946,7 +955,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #soccerFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #soccerFirstSection .overlay {
     height: 100%;
@@ -967,7 +976,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #squashFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #squashFirstSection .overlay {
     height: 100%;
@@ -988,7 +997,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #swimmingFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #swimmingFirstSection .overlay {
     height: 100%;
@@ -1009,7 +1018,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #tableTennisFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #tableTennisFirstSection .overlay {
     height: 100%;
@@ -1030,7 +1039,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #poolFirstSection > .row {
-    padding: 250px 99px;
+    padding: 260px 99px;
 }
 #poolFirstSection .overlay {
     height: 100%;
@@ -1091,7 +1100,7 @@ input[type="text"], input[type="email"], input[type="password"]{
    color:#3d2406;
 }
 #registerSecondSection> .row {
-    padding: 96px 376px;
+    padding: 96px 358px;
     margin: auto;
     display: block;
 }
