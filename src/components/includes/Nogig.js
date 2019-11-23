@@ -5,7 +5,7 @@ const Nogig = props=> {
     <>
       <div className="col-md-4">
         <div>
-            <h4 className="bold">{props.title}</h4>
+            <h5 className="bold">{props.title}</h5>
             <p>{props.content} 
             </p>
         </div>

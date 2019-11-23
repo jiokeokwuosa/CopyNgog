@@ -80,11 +80,16 @@ const MyNav = props => {
 								</DropdownItem>
 							</DropdownMenu>
 						</UncontrolledDropdown>
-						<NavItem>
-							<NavLink>
-								<Link to="/news">LATEST NEWS</Link>
-							</NavLink>
-						</NavItem>
+						<UncontrolledDropdown nav inNavbar>
+							<DropdownToggle nav caret>
+								<Link to="/">COMMUNITY</Link>
+							</DropdownToggle>
+							<DropdownMenu right>
+								<DropdownItem>
+									<Link to="/news">Latest News</Link>
+								</DropdownItem>								
+							</DropdownMenu>
+						</UncontrolledDropdown>
 						<NavItem>
 							<NavLink>
 								<Link to="/contact">CONTACTS</Link>

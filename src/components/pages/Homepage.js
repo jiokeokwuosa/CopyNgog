@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import Slide from '../includes/Slide';
 import Sports from '../includes/Sports';
 import Nogig from '../includes/Nogig';
@@ -12,7 +13,7 @@ const Homepage = ()=> {
      <div id="homepageFirstSection" className="container-fluid">
         <div className="row">
           <div className="col-md-12">
-            <h3 className="bold">EMPOWERING PARTICIPANTS AND PARTNERS TO DRIVE REAL-WORLD IMPACT THROUGH SPORTS.</h3>
+            <h4 className="bold">EMPOWERING PARTICIPANTS AND PARTNERS TO DRIVE REAL-WORLD IMPACT THROUGH SPORTS.</h4>
             <hr/>
           </div>
         </div>
@@ -28,11 +29,11 @@ const Homepage = ()=> {
           </div>
         </div>
         <div className="row myRow">
-          <Nogig title={<>THE NOGIG<br/> BIRTH</>} content='The games started in 1985 in Eket when NNPC and Mobil, now Exxonmobil hosted the competition in Eket with a few tennis 
+          <Nogig title={<>THE NOGIG BIRTH</>} content='The games started in 1985 in Eket when NNPC and Mobil, now Exxonmobil hosted the competition in Eket with a few tennis 
                   games. '/>
-          <Nogig title={<>THE NOGIG<br/> COMMITTMENT</>} content='It is aimed at fostering interaction amonest the Oil and Gas Company employees in Nigeria, also to promotes wellness and fitness programs.'/>
-          <Nogig title={<>THE NOGIG<br/>LOC</>} content='The NOGIG is a local organising commitee of National Oil and gas industry games formed by representatives of the participating companies.'/> 
-            <button>Learn More</button>
+          <Nogig title={<>THE NOGIG COMMITTMENT</>} content='It is aimed at fostering interaction amonest the Oil and Gas Company employees in Nigeria, also to promotes wellness and fitness programs.'/>
+          <Nogig title={<>THE NOGIG LOC</>} content='The NOGIG is a local organising commitee of National Oil and gas industry games formed by representatives of the participating companies.'/> 
+              <Link to='/about'>Learn More</Link>
         </div>
      </div>
      <div id="homepageSecondSection" className="container-fluid relative">
@@ -43,7 +44,7 @@ const Homepage = ()=> {
               <h2 className="bold">THE NOGIG SPORTS</h2>
               <hr/><br/>
               <h5 className="push bold">USING SPORT FOR GOOD</h5>
-              <p>NOGIG Sports harnesses the power of sports to reduce stress, promote health, and inspire careers development for professional in every memeber organization.  Our sports initiatives empower professionals to become a powerful agent of positive social change.<br/>
+              <p className="p1">NOGIG Sports harnesses the power of sports to reduce stress, promote health, and inspire careers development for professional in every memeber organization.  Our sports initiatives empower professionals to become a powerful agent of positive social change.<br/>
               <br/> The NOGIG competition prepares members to promote physical activity, healthy living, and good decision making, while cultivating caring, trust-based relationships with others professional through collaboraton they and also to increase their capacity to serve their various organization through quality based approach.</p>
           </div>
           <div className="col-md-6">
@@ -63,7 +64,7 @@ const Homepage = ()=> {
           <Sports image={require('../../assets/img/basketball icon.png')} title='Basketball' description='Our basketball game is played between two teams of five players each on a rectangular court, usually indoors.'/>
           <Sports image={require('../../assets/img/badminton.png')} title='Badminton' description='Our badminton game is a racquet sport played using racquets to hit a shuttlecock across a net. Try and check it out'/>
           <Sports image={require('../../assets/img/Golf.png')} title='Golf' description='Our golf game reuired participate to use various clubs to hit balls into a series of holes on a course in as few strokes as possible.'/>
-          <button>Learn More</button>
+          <Link to='/sports'>See More</Link>
         </div>
      </div>
      <div id="homepageFourthSection" className="container-fluid relative">
@@ -74,7 +75,7 @@ const Homepage = ()=> {
               <h5>Be Part Of Our Community</h5>
               <h1 className="bold">JOIN OUR NEXT COMPETITION</h1>
               <hr/><br/>  
-              <button>Register for the Games</button>            
+              <Link to='/register'>Register for the Games</Link>           
           </div>
         </div>        
      </div>
@@ -104,13 +105,13 @@ const Homepage = ()=> {
                 The company stated this on Sunday during a visit by a delegation led by the Minister of State for Petroleum Resources, Chief Timipre Sylva, to the refinery site in Lagos.<br/>
 
                 The Executive Director, Strategy, Capital Projects and Portfolio Development, Dangote Group, Devakumar Edwin, said products from the refinery, with a capacity to process 650,000 barrels per day, could be marketed anywhere in the world.</p>
-                <button>Learn More</button>
+                <Link to='/news'>Read More</Link>
           </div>          
         </div>
      </div>
      <div id="homepageSeventhSection" className="container-fluid">
-        <div className="row">
-          <Gallery/>
+        <div className="row row1">
+          <Gallery/>          
         </div>
      </div>
      <div id="homepageEightSection" className="container-fluid">
@@ -118,10 +119,13 @@ const Homepage = ()=> {
           <div className="col-md-12">
               <h2 className="bold">FOLLOW US</h2>
               <hr/><br/>
-              <div className="row">
-                <div className="col-md-12">
-                  <img src={require('../../assets/img/facebook icons.png')} alt="social media"/> <img src={require('../../assets/img/linkedln icon.png')} alt="social media"/> <img src={require('../../assets/img/pintrest icons.png')} alt="social media"/> <img src={require('../../assets/img/twitter icons.png')} alt="social media"/>  <img src={require('../../assets/img/youtube icons.png')} alt="social media"/> <img src={require('../../assets/img/instagram icons.png')} alt="social media"/>
-                </div>
+              <div className="row">               
+                <div className="col-md-2"><img src={require('../../assets/img/facebook icons.png')} alt="social media"/> </div>
+                <div className="col-md-2"><img src={require('../../assets/img/linkedln icon.png')} alt="social media"/> </div>
+                <div className="col-md-2"><img src={require('../../assets/img/pintrest icons.png')} alt="social media"/>  </div>
+                <div className="col-md-2"><img src={require('../../assets/img/twitter icons.png')} alt="social media"/> </div>
+                <div className="col-md-2"><img src={require('../../assets/img/youtube icons.png')} alt="social media"/> </div>
+                <div className="col-md-2"><img src={require('../../assets/img/instagram icons.png')} alt="social media"/> </div>  
               </div>
           </div>        
         </div>
