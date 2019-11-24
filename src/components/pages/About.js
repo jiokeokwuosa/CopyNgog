@@ -1,5 +1,6 @@
 import React from 'react';
 import Sports from '../includes/Sports';
+import {Link} from 'react-router-dom';
 
 const About= () => {
   return (
@@ -7,15 +8,16 @@ const About= () => {
       <div id="aboutFirstSection" className="container-fluid relative">
           <div className="overlay"></div>
           <div className="row">
-            <div className="col-md-6">               
-                <h2 className="bold">OUR GOALS DON'T END ON THE FIELD</h2>
+            <div className="col-md-7">
+                
+            </div>
+            <div className="col-md-5">               
+                <h2 className="bold">OUR GOALS DON'T <br/>END ON THE FIELD</h2>
                 <hr/><br/>
                 <h3>Creating change through sports</h3>
                 <button>Become a member?</button>
             </div>
-            <div className="col-md-6">
-                
-            </div>
+            
           </div>        
       </div>
       <div id="aboutSecondSection" className="container-fluid">
@@ -59,7 +61,7 @@ const About= () => {
           <Sports image={require('../../assets/img/basketball icon.png')} title='Basketball' description='Our basketball game is played between two teams of five players each on a rectangular court, usually indoors.'/>
           <Sports image={require('../../assets/img/badminton.png')} title='Badminton' description='Our badminton game is a racquet sport played using racquets to hit a shuttlecock across a net. Try and check it out'/>
           <Sports image={require('../../assets/img/Golf.png')} title='Golf' description='Our golf game reuired participate to use various clubs to hit balls into a series of holes on a course in as few strokes as possible.'/>
-          <button>Learn More</button>
+          <Link to='/sports'>Learn More</Link>
         </div>
      </div>
      <div id="homepageEightSection" className="container-fluid">
@@ -67,10 +69,13 @@ const About= () => {
           <div className="col-md-12">
               <h2 className="bold">FOLLOW US</h2>
               <hr/><br/>
-              <div className="row">
-                <div className="col-md-12 push2">
-                  <img src={require('../../assets/img/facebook icons.png')} alt="social media"/> <img src={require('../../assets/img/linkedln icon.png')} alt="social media"/> <img src={require('../../assets/img/pintrest icons.png')} alt="social media"/> <img src={require('../../assets/img/twitter icons.png')} alt="social media"/>  <img src={require('../../assets/img/youtube icons.png')} alt="social media"/> <img src={require('../../assets/img/instagram icons.png')} alt="social media"/>
-                </div>
+              <div className="row">               
+                <div className="col-md-2"><img src={require('../../assets/img/facebook icons.png')} alt="social media"/> </div>
+                <div className="col-md-2"><img src={require('../../assets/img/linkedln icon.png')} alt="social media"/> </div>
+                <div className="col-md-2"><img src={require('../../assets/img/pintrest icons.png')} alt="social media"/>  </div>
+                <div className="col-md-2"><img src={require('../../assets/img/twitter icons.png')} alt="social media"/> </div>
+                <div className="col-md-2"><img src={require('../../assets/img/youtube icons.png')} alt="social media"/> </div>
+                <div className="col-md-2"><img src={require('../../assets/img/instagram icons.png')} alt="social media"/> </div>  
               </div>
           </div>        
         </div>

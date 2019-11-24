@@ -9,7 +9,7 @@ const Sports = () =>{
                 <div className="row">
                 <div className="col-md-6">   
                     <h3>Keep Professionals in Sport</h3>                             
-                    <h2 className="bold">THE NOGIG SPORTS</h2> 
+                    <h1 className="bold">THE NOGIG SPORTS</h1> 
                     <hr/><br/>                              
                     <button>Register for NOGIG 2020</button>
                 </div>

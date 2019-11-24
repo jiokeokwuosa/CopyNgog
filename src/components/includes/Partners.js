@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import myImage1 from '../../assets/img/Shell icon.png';
-import myImage2 from '../../assets/img/Oando icon.png';
-import myImage3 from '../../assets/img/Agip icon.png';
-import myImage4 from '../../assets/img/Total icon.png';
-import myImage5 from '../../assets/img/PTI icon.png';
-import myImage6 from '../../assets/img/NNPC icon.png';
-import myImage7 from '../../assets/img/NLNG icon.png';
-import myImage8 from '../../assets/img/NCDMB icon.png';
-import myImage9 from '../../assets/img/NALPGAM.png';
-import myImage10 from '../../assets/img/Addax icon.png';
-import myImage11 from '../../assets/img/Chevron icon.png';
-import myImage12 from '../../assets/img/exxonmobil icon.png';
-import myImage13 from '../../assets/img/DPR icon.png';
+import myImage1 from '../../assets/img/Shell icon.jpg';
+import myImage2 from '../../assets/img/Oando icon.jpg';
+import myImage3 from '../../assets/img/Agip icon.jpg';
+import myImage4 from '../../assets/img/Total icon.jpg';
+import myImage5 from '../../assets/img/PTI icon.jpg';
+import myImage6 from '../../assets/img/NNPC icon.jpg';
+import myImage7 from '../../assets/img/NLNG icon.jpg';
+import myImage8 from '../../assets/img/NCDMB icon.jpg';
+import myImage9 from '../../assets/img/NALPGAM icon.jpg';
+import myImage10 from '../../assets/img/Addax icon.jpg';
+import myImage11 from '../../assets/img/Chevron icon.jpg';
+import myImage12 from '../../assets/img/exxonmobil icon.jpg';
+import myImage13 from '../../assets/img/DPR icon.jpg';
 
 export default class SimpleSlider extends Component {
   render() {
@@ -20,7 +20,7 @@ export default class SimpleSlider extends Component {
       dots: true,
       infinite: true,
       speed: 1000,
-      slidesToShow: 6,
+      slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
     };

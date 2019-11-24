@@ -21,8 +21,8 @@ class Forum extends Component {
                     <div className="overlay"></div>
                     <div className="row">
                         <div className="col-md-6">   
-                            <h3>For industry related news, NGOG news and events</h3>                             
-                            <h2 className="bold">LATEST NEWS</h2> 
+                            <h3><small>For industry related news,<br/> NGOG news and events</small></h3>                             
+                            <h1 className="bold">LATEST NEWS</h1> 
                             <hr/><br/>                         
                         </div>
                         <div className="col-md-6">

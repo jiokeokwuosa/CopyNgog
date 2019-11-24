@@ -44,20 +44,20 @@ a{
 	float: right;
 }
 .carousel-caption a {
-	padding: 10px 15px;
-	margin-left: 7px;
-	background:yellow;
-	color:  black;
-	border-radius: 22px;
-	border: 0;
-	font-size: 20px;
-  }
+    padding: 13px 33px;
+    margin-left: 7px;
+    background: yellow;
+    color: black;
+    border-radius: 22px;
+    border: 0;
+    font-size: 20px;
+}
 #homepageFirstSection {
-	padding: 103px 165px;
+	padding: 103px 33px;
 	background: #ffecce;
 	color:#3d2406;
 }
-#homepageFirstSection .col-md-12>h3{
+#homepageFirstSection .col-md-12>h4{
    text-align: center;
    padding: 0px 145px;
 }
@@ -78,13 +78,14 @@ a{
 #homepageFirstSection .myRow p {
     padding: 7px 40px;
 }
-#homepageFirstSection button {
+#homepageFirstSection a {
     text-align: center;
     margin: auto;        
-    padding: 9px 39px;
+    padding: 14px 39px;
     margin-top: 59px;
 	background: #3d2406;
-	color: white;
+    color: white;
+    border-radius: 19px;
 }
 #homepageSecondSection{
 	background-image: url('../img/2.jpg');
@@ -104,7 +105,7 @@ a{
     margin-left: 4px;
     margin-top: 0px;
 }
-#homepageSecondSection .overlay {
+/* #homepageSecondSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -112,12 +113,16 @@ a{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #homepageSecondSection .push{
     margin-top: 30px;
 }
 #homepageSecondSection >.row{
-    padding: 121px;
+    padding: 121px 33px 121px 33px;
+}
+
+#homepageSecondSection .p1 {
+    padding-right: 179px;
 }
 #homepageThirdSection h2 {
 	letter-spacing: 6px;
@@ -128,7 +133,7 @@ a{
 	border: solid 2px black;    
 }
 #homepageThirdSection {
-	padding: 80px 88px;
+	padding: 80px 33px;
 	background:#ffecce;
 	color:#3d2406;
 }
@@ -151,13 +156,14 @@ a{
 #homepageThirdSection .push{
     margin-top: 50px;
 }
-#homepageThirdSection button {
+#homepageThirdSection a{
     text-align: center;
     margin: auto;        
-    padding: 9px 39px;
+    padding: 14px 39px;
     margin-top: 59px;
 	background: #3d2406;
-	color: white;
+    color: white;
+    border-radius: 19px;
 }
 #homepageFourthSection h1 {
 	letter-spacing: 6px;
@@ -180,15 +186,17 @@ a{
 #homepageFourthSection> .row{
     padding: 120px 40px;
 }
-#homepageFourthSection button {
+#homepageFourthSection a{
     text-align: center;
     margin: auto;        
-    padding: 9px 39px;
+    padding: 16px 45px;
     margin-top: 59px;
 	background: #fede2b;
-	color: black;
+    color: black;
+    border-radius: 19px;
+    font-weight: bold;
 }
-#homepageFourthSection .overlay {
+/* #homepageFourthSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -196,18 +204,18 @@ a{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #homepageFifthSection h2 {
 	letter-spacing: 6px;
-	text-align: center;
-	margin-top: 45px;
+	text-align: center;	
 }
 #homepageFifthSection hr {
 	width: 8%;
-	border: solid 2px black;    
+    border: solid 2px black;
+    margin-bottom: 55px;    
 }
 #homepageFifthSection> .row {
-    padding: 58px 25px;
+    padding: 180px 25px;
 }
 #homepageSixthSection{
 	background-image: url('../img/4.jpg');
@@ -227,7 +235,7 @@ a{
     margin-left: 4px;
     margin-top: 0px;
 }
-#homepageSixthSection .overlay {
+/* #homepageSixthSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -235,20 +243,24 @@ a{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #homepageSixthSection .push{
     margin-top: 30px;
 }
 #homepageSixthSection >.row{
-    padding: 121px;
+    padding: 121px 33px 121px 33px;
 }
-#homepageSixthSection button {
+#homepageSixthSection a {
     text-align: center;
     margin: auto;        
-    padding: 9px 39px;
+    padding: 14px 39px;
     margin-top: 59px;
 	background: white;
-	color: black;
+    color: black;
+    border-radius: 19px;
+}
+#homepageSixthSection p {
+    margin-bottom: 50px;
 }
 #homepageSeventhSection{
 	background:#ec2601;
@@ -263,8 +275,25 @@ a{
 	width: 8%;
 	border: solid 2px white;    
 }
-#homepageSeventhSection> .row {
-    padding: 94px 1px;
+#homepageSeventhSection> .row1 {
+    padding: 94px 1px 56px 1px;
+}
+#homepageSeventhSection h4 {
+    margin-top: 61px;
+    text-align: left;
+    padding-left: 33px;
+}
+#homepageSeventhSection a {
+    text-align: center;
+    margin: auto;        
+    padding: 14px 39px;
+    margin-top: 59px;
+	background: white;
+    color: black;
+    border-radius: 19px;
+}
+#homepageSeventhSection .push3 {
+    margin-top: 63px;
 }
 #homepageSeventhSection img {
     width: 450px;
@@ -292,10 +321,6 @@ a{
 }
 #homepageEightSection > .row {
     padding: 107px 30px;
-}
-#homepageEightSection img {
-    margin: auto;
-    margin-right: 60px;
 }
 #homepageEightSection .push2 {
     margin-left: 20px;
@@ -333,10 +358,11 @@ footer hr{
 	color: white;
 }
 #aboutFirstSection > .row {
-    padding: 172px 99px;
+    padding: 220px 1px;
 }
 #aboutFirstSection h2 {
     letter-spacing: 6px;
+    margin-top: 29px;
 }
 #aboutFirstSection hr {
 	width: 8%;
@@ -359,7 +385,7 @@ footer hr{
     height: 100%;
     width: 100%;
     background: black;
-    opacity: 0.6;
+    opacity: 0.1;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -444,13 +470,14 @@ footer hr{
 #aboutThirdSection .push{
     margin-top: 50px;
 }
-#aboutThirdSection button {
+#aboutThirdSection a {
     text-align: center;
     margin: auto;        
     padding: 9px 39px;
     margin-top: 59px;
 	background: #3d2406;
-	color: white;
+    color: white;
+    border-radius: 19px;
 }
 #sportsFirstSection{
 	background-image: url('../img/Nogig sport page image.jpg');
@@ -462,11 +489,13 @@ footer hr{
 	color: white;
 }
 #sportsFirstSection > .row {
-    padding: 172px 99px;
+    padding: 200px 99px;
 }
-#sportsFirstSection h2 {
+#sportsFirstSection h1 {
 	letter-spacing: 6px;
-	color:lightgreen;	
+    color:lightgreen;	
+    font-size:80px;
+    line-height: 80px;
 }
 #sportsFirstSection hr {
 	width: 8%;
@@ -480,14 +509,14 @@ footer hr{
     border-radius: 22px;
     border: 0;
 	font-size: 20px;
-	margin-top:30px;
+	margin-top:56px;
 	margin-left: -51px;
 }
 #sportsFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
-    opacity: 0.6;
+    opacity: 0.2;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -540,9 +569,9 @@ footer hr{
 	color: white;
 }
 #medalFirstSection > .row {
-    padding: 220px 99px;
+    padding: 361px 99px;
 }
-#medalFirstSection .overlay {
+/* #medalFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -550,7 +579,7 @@ footer hr{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #medalSecondSection select{
 	padding: 8px 128px 8px 3px;  
 	margin-top:15px;  
@@ -569,7 +598,7 @@ footer hr{
 	color: white;
 }
 #contactFirstSection > .row {
-    padding: 172px 99px;
+    padding: 273px 99px;
 }
 #contactFirstSection h2 {
 	letter-spacing: 6px;	
@@ -583,7 +612,7 @@ footer hr{
     height: 100%;
     width: 100%;
     background: black;
-    opacity: 0.6;
+    opacity: 0.1;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -638,13 +667,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 #contactThirdSection > .row {
     padding: 107px 30px;
 }
-#contactThirdSection img {
-    margin: auto;
-    margin-right: 60px;
-}
-#contactThirdSection .push2 {
-    margin-left: 20px;
-}
+
 #loginFirstSection{
 	background-image: url('../img/sign in page.jpg');
 	background-repeat: no-repeat;
@@ -655,7 +678,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #loginFirstSection > .row {
-    padding: 172px 99px;
+    padding: 273px 99px;
 }
 #loginFirstSection h2 {
 	letter-spacing: 6px;
@@ -670,7 +693,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     height: 100%;
     width: 100%;
     background: black;
-    opacity: 0.6;
+    opacity: 0.1;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -713,7 +736,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #signupFirstSection > .row {
-    padding: 172px 99px;
+    padding: 273px 99px;
 }
 #signupFirstSection h2 {
 	letter-spacing: 6px;
@@ -728,7 +751,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     height: 100%;
     width: 100%;
     background: black;
-    opacity: 0.6;
+    opacity: 0.1;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -743,9 +766,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #newsFirstSection > .row {
-    padding: 172px 99px;
+    padding: 255px 99px;
 }
-#newsFirstSection h2 {
+#newsFirstSection h1 {
 	letter-spacing: 6px;	
 }
 #newsFirstSection hr {
@@ -757,7 +780,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     height: 100%;
     width: 100%;
     background: black;
-    opacity: 0.6;
+    opacity: 0.1;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -787,9 +810,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #athleticsFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;   
 }
-#athleticsFirstSection .overlay {
+/* #athleticsFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -797,7 +820,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #athleticsSecondSection p {
     font-size: 17px;
 }
@@ -828,9 +851,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #badmintonFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;
 }
-#badmintonFirstSection .overlay {
+/* #badmintonFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -838,7 +861,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 
 #basketballFirstSection{
 	background-image: url('../img/basketball page.jpg');
@@ -850,9 +873,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #basketballFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;
 }
-#basketballFirstSection .overlay {
+/* #basketballFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -860,7 +883,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #chessFirstSection{
 	background-image: url('../img/chess page.jpg');
 	background-repeat: no-repeat;
@@ -871,9 +894,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #chessFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;
 }
-#chessFirstSection .overlay {
+/* #chessFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -881,7 +904,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #golfFirstSection{
 	background-image: url('../img/Golf page.jpg');
 	background-repeat: no-repeat;
@@ -892,9 +915,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #golfFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;
 }
-#golfFirstSection .overlay {
+/* #golfFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -902,7 +925,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #lawnTennisFirstSection{
 	background-image: url('../img/Lawn tennis page.jpg');
 	background-repeat: no-repeat;
@@ -913,9 +936,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #lawnTennisFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;
 }
-#lawnTennisFirstSection .overlay {
+/* #lawnTennisFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -923,7 +946,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #scrabbleFirstSection{
 	background-image: url('../img/scrabble page.jpg');
 	background-repeat: no-repeat;
@@ -934,9 +957,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #scrabbleFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;
 }
-#scrabbleFirstSection .overlay {
+/* #scrabbleFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -944,7 +967,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #soccerFirstSection{
 	background-image: url('../img/soccer page.jpg');
 	background-repeat: no-repeat;
@@ -955,9 +978,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #soccerFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;
 }
-#soccerFirstSection .overlay {
+/* #soccerFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -965,7 +988,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #squashFirstSection{
 	background-image: url('../img/Squash page.jpg');
 	background-repeat: no-repeat;
@@ -976,9 +999,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #squashFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;
 }
-#squashFirstSection .overlay {
+/* #squashFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -986,7 +1009,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #swimmingFirstSection{
 	background-image: url('../img/Swimming page.jpg');
 	background-repeat: no-repeat;
@@ -997,9 +1020,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #swimmingFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;
 }
-#swimmingFirstSection .overlay {
+/* #swimmingFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -1007,7 +1030,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #tableTennisFirstSection{
 	background-image: url('../img/Table tennis.jpg');
 	background-repeat: no-repeat;
@@ -1018,9 +1041,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #tableTennisFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;
 }
-#tableTennisFirstSection .overlay {
+/* #tableTennisFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -1028,7 +1051,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #poolFirstSection{
 	background-image: url('../img/8-ball pool page.jpg');
 	background-repeat: no-repeat;
@@ -1039,9 +1062,9 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #poolFirstSection > .row {
-    padding: 260px 99px;
+    padding: 341px 99px;
 }
-#poolFirstSection .overlay {
+/* #poolFirstSection .overlay {
     height: 100%;
     width: 100%;
     background: black;
@@ -1049,7 +1072,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     position: absolute;
     left: 0px;
     top: 0px;
-}
+} */
 #registerFirstSection{
 	background-image: url('../img/sign up backgrnd.jpg');
 	background-repeat: no-repeat;
@@ -1060,7 +1083,7 @@ input[type="text"], input[type="email"], input[type="password"]{
 	color: white;
 }
 #registerFirstSection > .row {
-    padding: 172px 99px;
+    padding: 273px 99px;
 }
 #registerFirstSection h2 {
 	letter-spacing: 6px;	
@@ -1074,7 +1097,7 @@ input[type="text"], input[type="email"], input[type="password"]{
     height: 100%;
     width: 100%;
     background: black;
-    opacity: 0.6;
+    opacity: 0.2;
     position: absolute;
     left: 0px;
     top: 0px;
